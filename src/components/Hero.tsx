@@ -1,4 +1,4 @@
-import { Wifi, Tv, Phone } from "lucide-react";
+import { Wifi, Tv, Phone, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -71,6 +71,16 @@ const Hero = () => {
         </div>
 
         <div className="text-center mt-12">
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="mb-6 border-neonGreen/30 text-darkText hover:bg-neonGreen/10 hover:text-neonGreen hover:border-neonGreen/60"
+            onClick={() => window.open('https://lk.telincom.ru', '_blank')}
+          >
+            <User className="h-5 w-5 mr-2" />
+            Личный кабинет
+          </Button>
+          
           <div className="flex items-center justify-center space-x-2 text-muted-foreground mb-4">
             <Phone className="h-4 w-4 text-neonGreen" />
             <span>Звоните прямо сейчас</span>

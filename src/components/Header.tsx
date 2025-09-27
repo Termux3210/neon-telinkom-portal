@@ -1,5 +1,6 @@
-import { Phone } from "lucide-react";
+import { Phone, User } from "lucide-react";
 import telinkouLogo from "@/assets/telinkom-logo.jpg";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
@@ -28,6 +29,16 @@ const Header = () => {
             <div className="hidden md:block text-sm text-muted-foreground">
               Нагорное Шоссе 2
             </div>
+            
+            <Button 
+              variant="outline" 
+              size="sm"
+              className="border-neonGreen/20 text-darkText hover:bg-neonGreen/10 hover:text-neonGreen hover:border-neonGreen/40"
+              onClick={() => window.open('https://lk.telincom.ru', '_blank')}
+            >
+              <User className="h-4 w-4 mr-2" />
+              Личный кабинет
+            </Button>
           </div>
         </div>
       </div>
