@@ -39,7 +39,13 @@ const Hero = () => {
               
               <Button 
                 className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
-                onClick={() => window.B24Form && window.B24Form({id:'68',sec:'vj8514'})}
+                data-b24-form="68/vj8514"
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (typeof window !== 'undefined' && (window as any).B24Form) {
+                    (window as any).B24Form({id:'68',sec:'vj8514'});
+                  }
+                }}
               >
                 Подключить интернет
               </Button>
@@ -68,7 +74,13 @@ const Hero = () => {
               
               <Button 
                 className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
-                onClick={() => window.B24Form && window.B24Form({id:'68',sec:'vj8514'})}
+                data-b24-form="68/vj8514"
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (typeof window !== 'undefined' && (window as any).B24Form) {
+                    (window as any).B24Form({id:'68',sec:'vj8514'});
+                  }
+                }}
               >
                 Подключить ТВ
               </Button>
