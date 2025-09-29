@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ['localhost', 'www.telincom.ru', 'telincom.ru',],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {

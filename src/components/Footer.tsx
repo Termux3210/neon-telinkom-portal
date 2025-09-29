@@ -69,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 TelinCom. Все права защищены.
+            © 2025 TelinCom. Все права защищены.
           </p>
         </div>
       </div>

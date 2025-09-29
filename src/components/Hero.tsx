@@ -75,7 +75,7 @@ const Hero = () => {
             size="lg" 
             variant="outline"
             className="mb-6 border-neonGreen/30 text-darkText hover:bg-neonGreen/10 hover:text-neonGreen hover:border-neonGreen/60"
-            onClick={() => window.open('/cabinet', '_blank')}
+            onClick={() => window.open('https://cabinet.telincom.ru', '_blank')}
           >
             <User className="h-5 w-5 mr-2" />
             Личный кабинет

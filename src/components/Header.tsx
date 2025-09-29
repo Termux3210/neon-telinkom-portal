@@ -1,5 +1,5 @@
 import { Phone, User } from "lucide-react";
-import telinkouLogo from "@/assets/telinkom-logo.jpg";
+import telinkouLogo from "@/assets/logo.webp";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -34,7 +34,7 @@ const Header = () => {
               variant="outline" 
               size="sm"
               className="border-neonGreen/20 text-darkText hover:bg-neonGreen/10 hover:text-neonGreen hover:border-neonGreen/40"
-              onClick={() => window.open('/cabinet', '_blank')}
+              onClick={() => window.open('https://cabinet.telincom.ru', '_blank')}
             >
               <User className="h-4 w-4 mr-2" />
               Личный кабинет
