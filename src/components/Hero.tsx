@@ -37,7 +37,10 @@ const Hero = () => {
                 Высокоскоростной интернет для дома и офиса. Стабильное соединение без ограничений.
               </p>
               
-              <Button className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all">
+              <Button 
+                className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
+                onClick={() => window.B24Form && window.B24Form({id:'68',sec:'vj8514'})}
+              >
                 Подключить интернет
               </Button>
             </div>
@@ -63,7 +66,10 @@ const Hero = () => {
                 Цифровое телевидение высокого качества. Множество каналов и интерактивные сервисы.
               </p>
               
-              <Button className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all">
+              <Button 
+                className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
+                onClick={() => window.B24Form && window.B24Form({id:'68',sec:'vj8514'})}
+              >
                 Подключить ТВ
               </Button>
             </div>
