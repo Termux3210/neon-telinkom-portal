@@ -9,6 +9,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold text-darkText mb-4">TelinCom</h3>
             <p className="text-muted-foreground mb-4">
+              ООО "Современные технологии"
+            </p>
+            <p className="text-muted-foreground mb-4">
               Надежные телекоммуникационные услуги для дома и бизнеса. 
               Современные технологии и качественный сервис.
             </p>
@@ -31,7 +34,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-neonGreen flex-shrink-0 mt-1" />
                 <span className="text-muted-foreground">
-                  Нагорное Шоссе 2, Москва
+                  Нагорное Шоссе 2, Химки
                 </span>
               </div>
               

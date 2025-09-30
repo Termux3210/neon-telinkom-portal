@@ -46,7 +46,7 @@ const Hero = () => {
                       "sec":"vj8514",
                       "lang":"ru",
                       "address":"https://legche24.ru",
-                      "views":{"click":{"type":"panel","position":"right","vertical":"bottom"}}
+                      "views":{"inline":{"type":"panel","position":"right","vertical":"bottom"}}
                     });
                   }
                 }}
@@ -85,7 +85,7 @@ const Hero = () => {
                       "sec":"vj8514",
                       "lang":"ru",
                       "address":"https://legche24.ru",
-                      "views":{"click":{"type":"panel","position":"right","vertical":"bottom"}}
+                      "views":{"inline":{"type":"panel","position":"right","vertical":"bottom"}}
                     });
                   }
                 }}
