@@ -40,14 +40,9 @@ const Hero = () => {
               <Button 
                 className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
                 onClick={() => {
-                  if (typeof window !== 'undefined' && (window as any).b24form && (window as any).b24form.App) {
-                    (window as any).b24form.App.initFormScript24({
-                      "id":"68",
-                      "sec":"vj8514",
-                      "lang":"ru",
-                      "address":"https://legche24.ru",
-                      "views":{"click":{"type":"panel","position":"right","vertical":"bottom"}}
-                    });
+                  const formSection = document.getElementById('contact-form');
+                  if (formSection) {
+                    formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                   }
                 }}
               >
@@ -79,14 +74,9 @@ const Hero = () => {
               <Button 
                 className="w-full bg-neonGreen text-white hover:bg-neonGreen/90 shadow-lg hover:shadow-neonGreen/30 transition-all"
                 onClick={() => {
-                  if (typeof window !== 'undefined' && (window as any).b24form && (window as any).b24form.App) {
-                    (window as any).b24form.App.initFormScript24({
-                      "id":"68",
-                      "sec":"vj8514",
-                      "lang":"ru",
-                      "address":"https://legche24.ru",
-                      "views":{"click":{"type":"panel","position":"right","vertical":"bottom"}}
-                    });
+                  const formSection = document.getElementById('contact-form');
+                  if (formSection) {
+                    formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                   }
                 }}
               >
